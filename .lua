@@ -80,7 +80,7 @@ Counter = {
     ['Enabled'] = true,
     ['Webhook'] = {
         ['Enabled'] = true,
-        ['Url'] = 'https://discord.com/api/webhooks/1297206736758771853/U31LkDSSW4iKmjY91FM8jsJigTeTjr6blLDVJJASzUsNGujyiqs9Vk0ThFfRZ80G5J4T'
+        ['Url'] = ''
     },
     ['Theme'] = {
         ['Character'] = 'Yae',
