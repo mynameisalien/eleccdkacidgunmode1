@@ -13,7 +13,7 @@ Setup = {
     ['Lock Cam'] = false,
     ['Hop Region'] = 'Singapore',
     ['Random Y Tween'] = false,
-    ['Click Delay'] = 0.4
+    ['Click Delay'] = 0.175
 }
 
 Hunter = {
@@ -23,7 +23,7 @@ Hunter = {
             'Kitsune-Kitsune',
             'Meme-Meme'
         },
-        ['Timer'] = 75,
+        ['Timer'] = 60,
         ['V4'] = true
     },
     ['Gun Mode'] = true,
