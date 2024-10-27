@@ -8,20 +8,22 @@ Setup = {
             ['Marines'] = {0, 30000000}
         }
     },
-    ['Panic % Health'] = {35, 45},
+    ['Panic % Health'] = {40, 45},
     ['Chatting'] = {},
     ['Lock Cam'] = false,
     ['Hop Region'] = 'Singapore',
     ['Random Y Tween'] = false,
-    ['Click Delay'] = 0.6
+    ['Click Delay'] = 0.4
 }
 
 Hunter = {
     ['Ignore'] = {
         ['Fruit'] = {  
+            'Portal-Portal',
+            'Kitsune-Kitsune',
             'Meme-Meme'
         },
-        ['Timer'] = 85,
+        ['Timer'] = 75,
         ['V4'] = true
     },
     ['Gun Mode'] = true,
@@ -31,7 +33,7 @@ Hunter = {
 }
 
 Booster = {
-    ['Hide Gui'] = false,
+    ['Hide Gui'] = true,
     ['Showcase Mode'] = false,
     ['White Screen'] = false,
     ['Hide Map'] = false
@@ -40,17 +42,17 @@ Booster = {
 Skills = {
     ['Melee'] = {
         ['Enabled'] = {true, true},
-        ['Z'] = {true, 1.45, 0.388}, 
-        ['X'] = {true, 0.2, 0.632}, 
-        ['C'] = {true, 0.4, 0.145}
+        ['Z'] = {true, 1.5, 0}, 
+        ['X'] = {true, 0, 0}, 
+        ['C'] = {true, 0, 0}
     },
     ['Blox Fruit'] = {
         ['Enabled'] = {false, false},
-        ['Z'] = {true, 1.325, 0.9}, 
-        ['X'] = {true, 0.6, 0.235}, 
-        ['C'] = {true, 0.2, 0.435},
-        ['V'] = {true, 0.3, 0.195},
-        ['F'] = {true, 0, 0.6}
+        ['Z'] = {true, 0, 0}, 
+        ['X'] = {true, 0, 0}, 
+        ['C'] = {true, 0, 0},
+        ['V'] = {false, 0, 0},
+        ['F'] = {true, 0, 0}
     },
     ['Sword'] = {
         ['Enabled'] = {true, true},
@@ -58,7 +60,7 @@ Skills = {
         ['X'] = {true, 0, 0}, 
     },
     ['Gun'] = {
-        ['Enabled'] = {false, false},
+        ['Enabled'] = {true, true},
         ['Z'] = {false, 0, 0}, 
         ['X'] = {false, 0, 0}, 
     }
@@ -68,10 +70,10 @@ Macro = {
     ['Enabled'] = true,
     ['Skills'] = {
         [1] = {'Melee', {'Z', 'C'}},
-        [2] = {'Blox Fruit', {'F','C'}},
-        [3] = {'Sword', {'F', 'X'}},
+        [2] = {'Blox Fruit', {'C','X'}},
+        [3] = {'Sword', {'Z', 'X'}},
         [4] = {'Melee', {'X'}},
-        [5] = {'Gun', {'Z', 'V'}},
+        [5] = {'Gun', {'Z', 'X'}},
         [6] = {'Blox Fruit', {'Z', 'F'}}
     }
 }
