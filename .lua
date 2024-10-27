@@ -8,12 +8,12 @@ Setup = {
             ['Marines'] = {0, 30000000}
         }
     },
-    ['Panic % Health'] = {35, 55},
+    ['Panic % Health'] = {35, 45},
     ['Chatting'] = {},
     ['Lock Cam'] = false,
     ['Hop Region'] = 'Singapore',
     ['Random Y Tween'] = false,
-    ['Click Delay'] = 0.2
+    ['Click Delay'] = 0.6
 }
 
 Hunter = {
@@ -21,7 +21,7 @@ Hunter = {
         ['Fruit'] = {  
             'Meme-Meme'
         },
-        ['Timer'] = 72,
+        ['Timer'] = 85,
         ['V4'] = true
     },
     ['Gun Mode'] = true,
@@ -31,7 +31,7 @@ Hunter = {
 }
 
 Booster = {
-    ['Hide Gui'] = true
+    ['Hide Gui'] = false,
     ['Showcase Mode'] = false,
     ['White Screen'] = false,
     ['Hide Map'] = false
@@ -40,9 +40,9 @@ Booster = {
 Skills = {
     ['Melee'] = {
         ['Enabled'] = {true, true},
-        ['Z'] = {true, 0.1, 0.165}, 
-        ['X'] = {true, 0.3, 0.246}, 
-        ['C'] = {true, 0.5, 0.125}
+        ['Z'] = {true, 1.45, 0.388}, 
+        ['X'] = {true, 0.2, 0.632}, 
+        ['C'] = {true, 0.4, 0.145}
     },
     ['Blox Fruit'] = {
         ['Enabled'] = {false, false},
@@ -54,8 +54,8 @@ Skills = {
     },
     ['Sword'] = {
         ['Enabled'] = {true, true},
-        ['Z'] = {true, 0.5, 0.2}, 
-        ['X'] = {true, 0.3, 0.4}, 
+        ['Z'] = {true, 0.5, 0}, 
+        ['X'] = {true, 0, 0}, 
     },
     ['Gun'] = {
         ['Enabled'] = {false, false},
@@ -67,9 +67,9 @@ Skills = {
 Macro = {
     ['Enabled'] = true,
     ['Skills'] = {
-        [1] = {'Melee', {'C', 'Z'}},
+        [1] = {'Melee', {'Z', 'C'}},
         [2] = {'Blox Fruit', {'F','C'}},
-        [3] = {'Sword', {'X', 'Z'}},
+        [3] = {'Sword', {'F', 'X'}},
         [4] = {'Melee', {'X'}},
         [5] = {'Gun', {'Z', 'V'}},
         [6] = {'Blox Fruit', {'Z', 'F'}}
@@ -79,7 +79,7 @@ Macro = {
 Counter = {
     ['Enabled'] = true,
     ['Webhook'] = {
-        ['Enabled'] = true,
+        ['Enabled'] = false,
         ['Url'] = ''
     },
     ['Theme'] = {
